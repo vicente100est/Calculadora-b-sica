@@ -1,0 +1,25 @@
+<div class="mt-3 text-center">
+  <label>
+    Operando A:
+  </label>
+  <div class="mt-3">
+    <input type="number" class="forms-control" [(ngModel)] = 'operador1'>
+  </div>
+
+  <div class="mt3">
+    <label>
+      Operando B:
+    </label>
+  </div>
+
+  <input type="number" class="forms-control" [(ngModel)] = 'operador2'>
+
+  <div class="mt-3">
+    <button class="mt-3 btn btn-primary" (click)=operacionSuma()>
+      SUMAR
+    </button>
+  </div>
+  <div class="mt-3">
+    {{suma}}
+  </div>
+</div>
